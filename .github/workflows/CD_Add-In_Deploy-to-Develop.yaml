@@ -1,0 +1,51 @@
+name: Deploy Add-In App to Develop Environment on Azure
+
+on:
+  push:
+    branches:
+      - feature/10/github-actions
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: ./Add-In
+
+    - name: Build the React app
+      run: npm run build
+      working-directory: ./Add-In
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: build
+        path: ./Add-In/dist
+
+    - name: Copy configuration files
+      run: |
+        cp ./Add-In/web.config ./Add-In/dist/
+      working-directory: .
+
+    - name: Configure App Settings
+      run: |
+        az webapp config appsettings set --name 'as-mayday-develop' --resource-group 'rg-mayday-development' --settings @./Add-In/azure.settings.json
+      env:
+        AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_ADDIN_PUBLISH_ENV_DEVELOP }}
+
+    - name: Deploy Add-In App to Develop Environment on Azure
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'as-mayday-develop'        
+        publish-profile: ${{ secrets.AZURE_ADDIN_PUBLISH_ENV_DEVELOP }}
+        package: ./Add-In/dist

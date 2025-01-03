@@ -1,0 +1,326 @@
+[
+  {
+    "id": "R001",
+    "parentId": "C001",
+    "name": "Spellingfout algemeen",
+    "feedback": ""
+  },
+  {
+    "id": "R002",
+    "parentId": "C001",
+    "name": "Spellingfout samenstellingen",
+    "feedback": ""
+  },
+  {
+    "id": "R003",
+    "parentId": "C001",
+    "name": "Getallen tot 20 voluit schrijven",
+    "feedback": ""
+  },
+  {
+    "id": "R004",
+    "parentId": "C001",
+    "name": "Afkortingen eerste keer voluit schrijven",
+    "feedback": ""
+  },
+  {
+    "id": "R005",
+    "parentId": "C001",
+    "name": "Spellingfout Engelse termen",
+    "feedback": ""
+  },
+  {
+    "id": "R006",
+    "parentId": "R005",
+    "name": "Moet cursief",
+    "feedback": ""
+  },
+  {
+    "id": "R007",
+    "parentId": "R005",
+    "name": "Moet niet cursief",
+    "feedback": ""
+  },
+  {
+    "id": "R008",
+    "parentId": "C002",
+    "name": "Slechte zinsconstructie",
+    "feedback": ""
+  },
+  {
+    "id": "R009",
+    "parentId": "C002",
+    "name": "Slechte zinsovergang",
+    "feedback": ""
+  },
+  {
+    "id": "R010",
+    "parentId": "R009",
+    "name": "Slechte zinsovergang algemeen",
+    "feedback": ""
+  },
+  {
+    "id": "R011",
+    "parentId": "R009",
+    "name": "Slechte interpunctie algemeen",
+    "feedback": ""
+  },
+  {
+    "id": "R012",
+    "parentId": "R009",
+    "name": "Dit omdat",
+    "feedback": ""
+  },
+  {
+    "id": "R013",
+    "parentId": "R009",
+    "name": "Comma splice",
+    "feedback": ""
+  },
+  {
+    "id": "R014",
+    "parentId": "C002",
+    "name": "Slechte woordvolgorde",
+    "feedback": ""
+  },
+  {
+    "id": "R015",
+    "parentId": "R014",
+    "name": "Slechte woordvolgorde algemeen",
+    "feedback": ""
+  },
+  {
+    "id": "R016",
+    "parentId": "R014",
+    "name": "Plaats van 'echter' in de zin",
+    "feedback": ""
+  },
+  {
+    "id": "R017",
+    "parentId": "R014",
+    "name": "Fout in de wekwoordelijke eindgroep",
+    "feedback": ""
+  },
+  {
+    "id": "R018",
+    "parentId": "C003",
+    "name": "Naamwoordstijl",
+    "feedback": ""
+  },
+  {
+    "id": "R019",
+    "parentId": "C004",
+    "name": "Te persoonlijk(ik, wij, u, ...)",
+    "feedback": ""
+  },
+  {
+    "id": "R020",
+    "parentId": "C004",
+    "name": "Te informeel",
+    "feedback": ""
+  },
+  {
+    "id": "R021",
+    "parentId": "C004",
+    "name": "Dagboekstijl",
+    "feedback": ""
+  },
+  {
+    "id": "R022",
+    "parentId": "C005",
+    "name": "Spelfout (ww-vormen)",
+    "feedback": ""
+  },
+  {
+    "id": "R023",
+    "parentId": "C005",
+    "name": "Foute tijd van ww-vormen",
+    "feedback": ""
+  },
+  {
+    "id": "R024",
+    "parentId": "R023",
+    "name": "Gebruik van toekomstige tijd waar tijdloos schrijven vereist is",
+    "feedback": ""
+  },
+  {
+    "id": "R025",
+    "parentId": "R023",
+    "name": "Mengen van ww-tijden",
+    "feedback": ""
+  },
+  {
+    "id": "R026",
+    "parentId": "R023",
+    "name": "Onnodig voltooid verleden tijd",
+    "feedback": ""
+  },
+  {
+    "id": "R027",
+    "parentId": "C005",
+    "name": "Hij wilt",
+    "feedback": ""
+  },
+  {
+    "id": "R028",
+    "parentId": "C005",
+    "name": "'gaan' als hulpwerkwoord",
+    "feedback": ""
+  },
+  {
+    "id": "R029",
+    "parentId": "C005",
+    "name": "Congruentiefout",
+    "feedback": ""
+  },
+  {
+    "id": "R030",
+    "parentId": "C005",
+    "name": "Passivitis",
+    "feedback": ""
+  },
+  {
+    "id": "R031",
+    "parentId": "C006",
+    "name": "Foute betekenis",
+    "feedback": ""
+  },
+  {
+    "id": "R032",
+    "parentId": "C006",
+    "name": "Ouderwets woord",
+    "feedback": ""
+  },
+  {
+    "id": "R033",
+    "parentId": "C006",
+    "name": "Dialectfouten",
+    "feedback": ""
+  },
+  {
+    "id": "R034",
+    "parentId": "C006",
+    "name": "Dubbelop",
+    "feedback": ""
+  },
+  {
+    "id": "R035",
+    "parentId": "C006",
+    "name": "Fout verwijswoord (GrRef)",
+    "feedback": ""
+  },
+  {
+    "id": "R036",
+    "parentId": "C006",
+    "name": "Specifieke fouten",
+    "feedback": ""
+  },
+  {
+    "id": "R037",
+    "parentId": "R036",
+    "name": "Mits/Vermits",
+    "feedback": ""
+  },
+  {
+    "id": "R038",
+    "parentId": "R036",
+    "name": "Tenslotte/Ten slotte",
+    "feedback": ""
+  },
+  {
+    "id": "R039",
+    "parentId": "R036",
+    "name": "Moest/Mocht",
+    "feedback": ""
+  },
+  {
+    "id": "R040",
+    "parentId": "R036",
+    "name": "Hen/Hun",
+    "feedback": ""
+  },
+  {
+    "id": "R041",
+    "parentId": "R036",
+    "name": "Bestaan in/uit",
+    "feedback": ""
+  },
+  {
+    "id": "R042",
+    "parentId": "R036",
+    "name": "Het bedrijf X",
+    "feedback": ""
+  },
+  {
+    "id": "R043",
+    "parentId": "C006",
+    "name": "Fout lidwoord",
+    "feedback": ""
+  },
+  {
+    "id": "R044",
+    "parentId": "C007",
+    "name": "Foute bronvermelding",
+    "feedback": ""
+  },
+  {
+    "id": "R045",
+    "parentId": "C007",
+    "name": "Ontbrekende bronvermelding",
+    "feedback": ""
+  },
+  {
+    "id": "R046",
+    "parentId": "C007",
+    "name": "Ontbrekende datum",
+    "feedback": ""
+  },
+  {
+    "id": "R047",
+    "parentId": "C007",
+    "name": "Titel website verkeerd opgenomen",
+    "feedback": ""
+  },
+  {
+    "id": "R048",
+    "parentId": "C007",
+    "name": "Naam/namen van auteur(s) incorrect opgenomen",
+    "feedback": ""
+  },
+  {
+    "id": "R049",
+    "parentId": "C008",
+    "name": "Overmatig gebruik van subalinea's",
+    "feedback": ""
+  },
+  {
+    "id": "R050",
+    "parentId": "C008",
+    "name": "Geen punt gebruiken na titel",
+    "feedback": ""
+  },
+  {
+    "id": "R051",
+    "parentId": "C008",
+    "name": "Niet doorgenummerd in het document",
+    "feedback": ""
+  },
+  {
+    "id": "R052",
+    "parentId": "C008",
+    "name": "Ontbrekend bijschrift (tabel)",
+    "feedback": ""
+  },
+  {
+    "id": "R053",
+    "parentId": "C008",
+    "name": "Ontbrekend bijschrift (afbeelding)",
+    "feedback": ""
+  },
+  {
+    "id": "R054",
+    "parentId": "C008",
+    "name": "Geen cleane versie",
+    "feedback": ""
+  }
+]

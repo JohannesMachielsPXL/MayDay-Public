@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "office-addins",
+    "react",
+    "react-hooks"
+  ],
+  "extends": [
+    "plugin:office-addins/react",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto", "ignore": ["blankLines"], "trailingComma": "none" }],
+    "no-undef": "off"
+  }
+}

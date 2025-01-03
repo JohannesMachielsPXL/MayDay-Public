@@ -1,0 +1,363 @@
+{
+  "settings": {},
+  "categories": [
+    {
+      "id": "C001",
+      "color": "#111111"
+    },
+    {
+      "id": "C002",
+      "color": "#111111"
+    },
+    {
+      "id": "C003",
+      "color": "#222222"
+    },
+    {
+      "id": "C004",
+      "color": "#333333"
+    },
+    {
+      "id": "C005",
+      "color": "#444444"
+    },
+    {
+      "id": "C006",
+      "color": "#555555"
+    },
+    {
+      "id": "C007",
+      "color": "#666666"
+    },
+    {
+      "id": "C008",
+      "color": "#777777"
+    }
+  ],
+  "subCategories": [
+    {
+      "id": "S001",
+      "parentId": "C001",
+      "name": "Spellingfout algemeen",
+      "feedback": ""
+    },
+    {
+      "id": "S002",
+      "parentId": "C001",
+      "name": "Spellingfout samenstellingen",
+      "feedback": ""
+    },
+    {
+      "id": "S003",
+      "parentId": "C001",
+      "name": "Getallen tot 20 voluit schrijven",
+      "feedback": ""
+    },
+    {
+      "id": "S004",
+      "parentId": "C001",
+      "name": "Afkortingen eerste keer voluit schrijven",
+      "feedback": ""
+    },
+    {
+      "id": "S005",
+      "parentId": "C001",
+      "name": "Spellingfout Engelse termen",
+      "feedback": ""
+    },
+    {
+      "id": "S006",
+      "parentId": "S005",
+      "name": "Moet cursief",
+      "feedback": ""
+    },
+    {
+      "id": "S007",
+      "parentId": "S005",
+      "name": "Moet niet cursief",
+      "feedback": ""
+    },
+    {
+      "id": "S008",
+      "parentId": "C002",
+      "name": "Slechte zinsconstructie",
+      "feedback": ""
+    },
+    {
+      "id": "S009",
+      "parentId": "C002",
+      "name": "Slechte zinsovergang",
+      "feedback": ""
+    },
+    {
+      "id": "S010",
+      "parentId": "S009",
+      "name": "Slechte zinsovergang algemeen",
+      "feedback": ""
+    },
+    {
+      "id": "S011",
+      "parentId": "S009",
+      "name": "Slechte interpunctie algemeen",
+      "feedback": ""
+    },
+    {
+      "id": "S012",
+      "parentId": "S009",
+      "name": "Dit omdat",
+      "feedback": ""
+    },
+    {
+      "id": "S013",
+      "parentId": "S009",
+      "name": "Comma splice",
+      "feedback": ""
+    },
+    {
+      "id": "S014",
+      "parentId": "C002",
+      "name": "Slechte woordvolgorde",
+      "feedback": ""
+    },
+    {
+      "id": "S015",
+      "parentId": "S014",
+      "name": "Slechte woordvolgorde algemeen",
+      "feedback": ""
+    },
+    {
+      "id": "S016",
+      "parentId": "S014",
+      "name": "Plaats van 'echter' in de zin",
+      "feedback": ""
+    },
+    {
+      "id": "S017",
+      "parentId": "S014",
+      "name": "Fout in de wekwoordelijke eindgroep",
+      "feedback": ""
+    },
+    {
+      "id": "S018",
+      "parentId": "C003",
+      "name": "Naamwoordstijl",
+      "feedback": ""
+    },
+    {
+      "id": "S019",
+      "parentId": "C004",
+      "name": "Te persoonlijk(ik, wij, u, ...)",
+      "feedback": ""
+    },
+    {
+      "id": "S020",
+      "parentId": "C004",
+      "name": "Te informeel",
+      "feedback": ""
+    },
+    {
+      "id": "S021",
+      "parentId": "C004",
+      "name": "Dagboekstijl",
+      "feedback": ""
+    },
+    {
+      "id": "S022",
+      "parentId": "C005",
+      "name": "Spelfout (ww-vormen)",
+      "feedback": ""
+    },
+    {
+      "id": "S023",
+      "parentId": "C005",
+      "name": "Foute tijd van ww-vormen",
+      "feedback": ""
+    },
+    {
+      "id": "S024",
+      "parentId": "S023",
+      "name": "Gebruik van toekomstige tijd waar tijdloos schrijven vereist is",
+      "feedback": ""
+    },
+    {
+      "id": "S025",
+      "parentId": "S023",
+      "name": "Mengen van ww-tijden",
+      "feedback": ""
+    },
+    {
+      "id": "S026",
+      "parentId": "S023",
+      "name": "Onnodig voltooid verleden tijd",
+      "feedback": ""
+    },
+    {
+      "id": "S027",
+      "parentId": "C005",
+      "name": "Hij wilt",
+      "feedback": ""
+    },
+    {
+      "id": "S028",
+      "parentId": "C005",
+      "name": "'gaan' als hulpwerkwoord",
+      "feedback": ""
+    },
+    {
+      "id": "S029",
+      "parentId": "C005",
+      "name": "Congruentiefout",
+      "feedback": ""
+    },
+    {
+      "id": "S030",
+      "parentId": "C005",
+      "name": "Passivitis",
+      "feedback": ""
+    },
+    {
+      "id": "S031",
+      "parentId": "C006",
+      "name": "Foute betekenis",
+      "feedback": ""
+    },
+    {
+      "id": "S032",
+      "parentId": "C006",
+      "name": "Ouderwets woord",
+      "feedback": ""
+    },
+    {
+      "id": "S033",
+      "parentId": "C006",
+      "name": "Dialectfouten",
+      "feedback": ""
+    },
+    {
+      "id": "S034",
+      "parentId": "C006",
+      "name": "Dubbelop",
+      "feedback": ""
+    },
+    {
+      "id": "S035",
+      "parentId": "C006",
+      "name": "Fout verwijswoord (GrRef)",
+      "feedback": ""
+    },
+    {
+      "id": "S036",
+      "parentId": "C006",
+      "name": "Specifieke fouten",
+      "feedback": ""
+    },
+    {
+      "id": "S037",
+      "parentId": "S036",
+      "name": "Mits/Vermits",
+      "feedback": ""
+    },
+    {
+      "id": "S038",
+      "parentId": "S036",
+      "name": "Tenslotte/Ten slotte",
+      "feedback": ""
+    },
+    {
+      "id": "S039",
+      "parentId": "S036",
+      "name": "Moest/Mocht",
+      "feedback": ""
+    },
+    {
+      "id": "S040",
+      "parentId": "S036",
+      "name": "Hen/Hun",
+      "feedback": ""
+    },
+    {
+      "id": "S041",
+      "parentId": "S036",
+      "name": "Bestaan in/uit",
+      "feedback": ""
+    },
+    {
+      "id": "S042",
+      "parentId": "S036",
+      "name": "Het bedrijf X",
+      "feedback": ""
+    },
+    {
+      "id": "S043",
+      "parentId": "C006",
+      "name": "Fout lidwoord",
+      "feedback": ""
+    },
+    {
+      "id": "S044",
+      "parentId": "C007",
+      "name": "Foute bronvermelding",
+      "feedback": ""
+    },
+    {
+      "id": "S045",
+      "parentId": "C007",
+      "name": "Ontbrekende bronvermelding",
+      "feedback": ""
+    },
+    {
+      "id": "S046",
+      "parentId": "C007",
+      "name": "Ontbrekende datum",
+      "feedback": ""
+    },
+    {
+      "id": "S047",
+      "parentId": "C007",
+      "name": "Titel website verkeerd opgenomen",
+      "feedback": ""
+    },
+    {
+      "id": "S048",
+      "parentId": "C007",
+      "name": "Naam/namen van auteur(s) incorrect opgenomen",
+      "feedback": ""
+    },
+    {
+      "id": "S049",
+      "parentId": "C008",
+      "name": "Overmatig gebruik van subalinea's",
+      "feedback": ""
+    },
+    {
+      "id": "S050",
+      "parentId": "C008",
+      "name": "Geen punt gebruiken na titel",
+      "feedback": ""
+    },
+    {
+      "id": "S051",
+      "parentId": "C008",
+      "name": "Niet doorgenummerd in het document",
+      "feedback": ""
+    },
+    {
+      "id": "S052",
+      "parentId": "C008",
+      "name": "Ontbrekend bijschrift (tabel)",
+      "feedback": ""
+    },
+    {
+      "id": "S053",
+      "parentId": "C008",
+      "name": "Ontbrekend bijschrift (afbeelding)",
+      "feedback": ""
+    },
+    {
+      "id": "S054",
+      "parentId": "C008",
+      "name": "Geen cleane versie",
+      "feedback": ""
+    }
+  ]
+}

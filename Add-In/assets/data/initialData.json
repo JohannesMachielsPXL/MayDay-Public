@@ -1,0 +1,56 @@
+{
+  "preferences": {
+    "backgroundColor": "#ff5959",
+    "backupFolderPath": ""
+  },
+  "categories": [
+    {
+      "id": "C001",
+      "name": "Spelling",
+      "color": "#ff5959",
+      "ref": "SP"
+    },
+    {
+      "id": "C002",
+      "name": "Zinsbouw",
+      "color": "#5959ff",
+      "ref": "ZB"
+    },
+    {
+      "id": "C003",
+      "name": "Naamwoordstijl",
+      "color": "#59ff59",
+      "ref": "NWS"
+    },
+    {
+      "id": "C004",
+      "name": "Academische Stijl",
+      "color": "#ffff59",
+      "ref": "AS"
+    },
+    {
+      "id": "C005",
+      "name": "Werkwoordsvormen",
+      "color": "#c040c0",
+      "ref": "WW"
+    },
+    {
+      "id": "C006",
+      "name": "Woordenschat & Grammatica",
+      "color": "#ff59ff",
+      "ref": "WS/GM"
+    },
+    {
+      "id": "C007",
+      "name": "Bronvermelding",
+      "color": "#40c0c0",
+      "ref": "BV"
+    },
+    {
+      "id": "C008",
+      "name": "Lay-out",
+      "color": "#80ffff",
+      "ref": "L"
+    }
+  ]
+}

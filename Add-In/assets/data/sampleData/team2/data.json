@@ -1,0 +1,416 @@
+{
+  "categories": [
+    {
+      "id": "category_1",
+      "title": "Spelling",
+      "code": "SP",
+      "colour": "#FFFF25"
+    },
+    {
+      "id": "category_2",
+      "title": "Zinsbouw",
+      "code": "ZB",
+      "colour": "#00FF41"
+    },
+    {
+      "id": "category_3",
+      "title": "Naamwoordstijl",
+      "code": "NWS",
+      "colour": "#00FFFF"
+    },
+    {
+      "id": "category_4",
+      "title": "Academische stijl",
+      "code": "AS",
+      "colour": "#817D0C"
+    },
+    {
+      "id": "category_5",
+      "title": "Werkwoordsvormen",
+      "code": "WW",
+      "colour": "#FF0000"
+    },
+    {
+      "id": "category_6",
+      "title": "Woordenschat & Grammatica",
+      "code": "WO/GR",
+      "colour": "#FF00F9"
+    },
+    {
+      "id": "category_7",
+      "title": "Bronvermelding",
+      "code": "BV",
+      "colour": "#807D78"
+    },
+    {
+      "id": "category_8",
+      "title": "Lay-out",
+      "code": "L",
+      "colour": "#C4C1BB"
+    }
+  ],
+  "subCategories": [
+    {
+      "categoryId": "category_1",
+      "description": "Spellingsfout algemeen",
+      "id": "sub_category_1_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_1",
+      "description": "Spellingsfout samenstellingen",
+      "id": "sub_category_1_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_1",
+      "description": "Spellingsfout Engelse termen",
+      "id": "sub_category_1_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_1",
+      "description": "Getallen tot 20 voluit schrijven",
+      "id": "sub_category_1_4",
+      "shortCode": "4"
+    },
+    {
+      "categoryId": "category_1",
+      "description": "Afkortingen eerste keer voluit schrijven",
+      "id": "sub_category_1_5",
+      "shortCode": "5"
+    },
+    {
+      "categoryId": "category_2",
+      "description": "Slechte zinsconstructie",
+      "id": "sub_category_2_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_2",
+      "description": "Slechte zinsovergang",
+      "id": "sub_category_2_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_2",
+      "description": "Slechte woordvolgorde",
+      "id": "sub_category_2_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_4",
+      "description": "Te persoonlijk",
+      "id": "sub_category_4_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_4",
+      "description": "Te informeel",
+      "id": "sub_category_4_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_4",
+      "description": "Dagboekstijl",
+      "id": "sub_category_4_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "Spelfout ww-vormen",
+      "id": "sub_category_5_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "Foute tijd van ww-vormen",
+      "id": "sub_category_5_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "Hij wilt",
+      "id": "sub_category_5_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "'gaan' als hulpwerkwoord",
+      "id": "sub_category_5_4",
+      "shortCode": "4"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "Congruentiefout",
+      "id": "sub_category_5_5",
+      "shortCode": "5"
+    },
+    {
+      "categoryId": "category_5",
+      "description": "Passivitis",
+      "id": "sub_category_5_6",
+      "shortCode": "6"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Foute betekenis",
+      "id": "sub_category_6_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Ouderwets woord",
+      "id": "sub_category_6_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Dialectfouten",
+      "id": "sub_category_6_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Dubbelop",
+      "id": "sub_category_6_4",
+      "shortCode": "4"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Specifieke fouten",
+      "id": "sub_category_6_5",
+      "shortCode": "5"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Fout verwijswoord (GrRef)",
+      "id": "sub_category_6_6",
+      "shortCode": "6"
+    },
+    {
+      "categoryId": "category_6",
+      "description": "Fout lidwoord",
+      "id": "sub_category_6_7",
+      "shortCode": "7"
+    },
+    {
+      "categoryId": "category_7",
+      "description": "Foute bronvermelding",
+      "id": "sub_category_7_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_7",
+      "description": "Ontbrekende bronvermelding",
+      "id": "sub_category_7_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_7",
+      "description": "Ontbrekende datum",
+      "id": "sub_category_7_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_7",
+      "description": "Titel website verkeerd opgenomen",
+      "id": "sub_category_7_4",
+      "shortCode": "4"
+    },
+    {
+      "categoryId": "category_7",
+      "description": "Naam/namen van auteur(s) incorrect opgenomen",
+      "id": "sub_category_7_5",
+      "shortCode": "5"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Overmatig gebruik van alinea's",
+      "id": "sub_category_8_1",
+      "shortCode": "1"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Geen punt gebruiken na titel",
+      "id": "sub_category_8_2",
+      "shortCode": "2"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Niet doorgenummerd in het document",
+      "id": "sub_category_8_3",
+      "shortCode": "3"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Ontbrekend bijschrift (tabel)",
+      "id": "sub_category_8_4",
+      "shortCode": "4"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Ontbrekend bijschrift (afbeelding)",
+      "id": "sub_category_8_5",
+      "shortCode": "5"
+    },
+    {
+      "categoryId": "category_8",
+      "description": "Geen cleane versie",
+      "id": "sub_category_8_6",
+      "shortCode": "6"
+    }
+  ],
+  "subSubCategories": [
+    {
+      "subCategoryId": "sub_category_1_3",
+      "description": "Moet cursief",
+      "id": "sub_sub_category_1_3_1",
+      "shortCode": "1"
+    },
+    {
+      "subCategoryId": "sub_category_1_3",
+      "description": "Moet niet cursief",
+      "id": "sub_sub_category_1_3_2",
+      "shortCode": "2"
+    },
+    {
+      "subCategoryId": "sub_category_2_2",
+      "description": "algemeen",
+      "id": "sub_sub_category_2_2_1",
+      "shortCode": "1"
+    },
+    {
+      "subCategoryId": "sub_category_2_2",
+      "description": "slechte interpunctie (algemeen)",
+      "id": "sub_sub_category_2_2_2",
+      "shortCode": "2"
+    },
+    {
+      "subCategoryId": "sub_category_2_2",
+      "description": "'Dit omdat'",
+      "id": "sub_sub_category_2_2_3",
+      "shortCode": "3"
+    },
+    {
+      "subCategoryId": "sub_category_2_2",
+      "description": "comma splice",
+      "id": "sub_sub_category_2_2_4",
+      "shortCode": "4"
+    },
+    {
+      "subCategoryId": "sub_category_2_3",
+      "description": "algemeen",
+      "id": "sub_sub_category_2_3_1",
+      "shortCode": "1"
+    },
+    {
+      "subCategoryId": "sub_category_2_3",
+      "description": "plaats van 'echter' in de zin",
+      "id": "sub_sub_category_2_3_2",
+      "shortCode": "2"
+    },
+    {
+      "subCategoryId": "sub_category_2_3",
+      "description": "fout in de werkwoordelijke eindgroep",
+      "id": "sub_sub_category_2_3_3",
+      "shortCode": "3"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van toekomstige tijd waar tijdloos schrijven vereist is",
+      "id": "sub_sub_category_5_2_1",
+      "shortCode": "1"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "mengen van ww-tijden",
+      "id": "sub_sub_category_5_2_2",
+      "shortCode": "2"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "onnodig voltooid verleden tijd",
+      "id": "sub_sub_category_5_2_3",
+      "shortCode": "3"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van onvoltooid tegenwoordige tijd waar voltooid tegenwoordige tijd vereist is",
+      "id": "sub_sub_category_5_2_4",
+      "shortCode": "4"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van onvoltooid verleden tijd waar voltooid verleden tijd vereist is",
+      "id": "sub_sub_category_5_2_5",
+      "shortCode": "5"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van onvoltooid tegenwoordige tijd waar voltooid verleden tijd vereist is",
+      "id": "sub_sub_category_5_2_6",
+      "shortCode": "6"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van voltooid tegenwoordige tijd waar voltooid verleden tijd vereist is",
+      "id": "sub_sub_category_5_2_7",
+      "shortCode": "7"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van voltooid verleden tijd waar voltooid tegenwoordige tijd vereist is",
+      "id": "sub_sub_category_5_2_8",
+      "shortCode": "8"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van voltooid tegenwoordige tijd waar voltooid tegenwoordige tijd vereist is",
+      "id": "sub_sub_category_5_2_9",
+      "shortCode": "9"
+    },
+    {
+      "subCategoryId": "sub_category_5_2",
+      "description": "gebruik van voltooid verleden tijd waar voltooid verleden tijd vereist is",
+      "id": "sub_sub_category_5_2_10",
+      "shortCode": "10"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "mits/vermits",
+      "id": "sub_sub_category_6_5_1",
+      "shortCode": "1"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "tenslotte/ten slotte",
+      "id": "sub_sub_category_6_5_2",
+      "shortCode": "2"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "moest / mocht",
+      "id": "sub_sub_category_6_5_3",
+      "shortCode": "3"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "hen/hun",
+      "id": "sub_sub_category_6_5_4",
+      "shortCode": "4"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "bestaan in/uit",
+      "id": "sub_sub_category_6_5_5",
+      "shortCode": "5"
+    },
+    {
+      "subCategoryId": "sub_category_6_5",
+      "description": "het bedrijf cegeka",
+      "id": "sub_sub_category_6_5_6",
+      "shortCode": "6"
+    }
+  ]
+}

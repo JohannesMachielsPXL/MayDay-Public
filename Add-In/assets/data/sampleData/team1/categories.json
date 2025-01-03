@@ -1,0 +1,50 @@
+[
+  {
+    "id": "C001",
+    "name": "Spelling",
+    "ref": "SP",
+    "color": "#ff5959"
+  },
+  {
+    "id": "C002",
+    "name": "Zinsbouw",
+    "ref": "ZB",
+    "color": "#5959ff"
+  },
+  {
+    "id": "C003",
+    "name": "Naamwoordstijl",
+    "ref": "NWS",
+    "color": "#59ff59"
+  },
+  {
+    "id": "C004",
+    "name": "Academische Stijl",
+    "ref": "AS",
+    "color": "#ffff59"
+  },
+  {
+    "id": "C005",
+    "name": "Werkwoordsvormen",
+    "ref": "WW",
+    "color": "#c040c0"
+  },
+  {
+    "id": "C006",
+    "name": "Woordenschat & Grammatica",
+    "ref": "WS/GM",
+    "color": "#ff59ff"
+  },
+  {
+    "id": "C007",
+    "name": "Bronvermelding",
+    "ref": "BV",
+    "color": "#40c0c0"
+  },
+  {
+    "id": "C008",
+    "name": "Lay-out",
+    "ref": "L",
+    "color": "#80ffff"
+  }
+]
